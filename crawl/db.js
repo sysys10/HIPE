@@ -39,7 +39,7 @@ const Add_to_solved = ({ boj_id, solved }) => {
     console.log(
       `이름:${boj_id}: 오늘 푼 문제 ${problemNumber} 티어:${findTier(
         problemNumber
-      )} 시간: ${submissionTimestamp}`
+      )} 시간: ${submissionTimestamp} \n`
     );
     // 여기서 문제 해결 시간과 번호를 DB에 업데이트하는 로직 구현
   });

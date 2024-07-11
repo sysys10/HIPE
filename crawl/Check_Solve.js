@@ -27,7 +27,7 @@ const get_streak = async () => {
       });
       const { rating, streak, full_solved } = data;
       console.log(
-        `${boj_id} ${member.name}님의 티어:${user_tier(parseInt(rating, 10))} 레이팅: ${rating} 스트릭:${streak} 총 푼 문제:${full_solved}입니다.`
+        `${boj_id} ${member.name}님의 티어:${user_tier(parseInt(rating, 10))} 레이팅: ${rating} 스트릭:${streak} 총 푼 문제:${full_solved}입니다.\n\n`
       );
       //유저에 레이팅, 스트릭, 푼 전체 문제 추가
       

@@ -56,14 +56,13 @@ const CheckBoj = async (boj_id) => {
         !solved.includes(problemNumber)
       ) {
         solved.push({ problemNumber, submissionTimestamp });
-        console.log(`${boj_id}: ${problemNumber} ${submissionTimestamp}`);
       }
     });
 
     //오늘 푼 문제에 추가하기.
     Add_to_solved({ boj_id, solved });
   } catch (error) {
-    console.error(`${boj_id} boj찾기 실패:`, error);
+    console.error(`${boj_id} boj찾기 실패: `, error);
   } finally {
     await browser.close();
   }
