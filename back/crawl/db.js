@@ -1,7 +1,5 @@
 const Data_File = require("./Data_file");
 const { findTier } = require("./util");
-const User = require("../models/User");
-require("dotenv").config(); 
 
 const add_to_user =  (data) => {
   console.log(data);
