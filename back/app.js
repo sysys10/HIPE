@@ -1,7 +1,7 @@
 const express = require('express');
 const cron = require('node-cron')
 const start_crawl = require('./crawl/Check_Solve')
-require('dotenv').config(); // dotenv 설정
+require('dotenv').config(); 
 const app = express();
 app.use(express.json());
 

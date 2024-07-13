@@ -4,7 +4,6 @@ const { format, parse } = require("date-fns"); // 날짜 처리를 위한 date-f
 
 const CheckBoj = async (boj_id) => {
   const solved = [];
-  let cnt = 0;
   const browser = await puppeteer.launch({
     headless: true,
     args: ["--no-sandbox", "--disable-setuid-sandbox"],

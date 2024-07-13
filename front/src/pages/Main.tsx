@@ -1,6 +1,5 @@
 import DoughnutChart from "../components/Doughnut";
-import Banner from "/src/components/Banner";
-import BarRank from "/src/components/barRank";
+import Banner from "../components/Banner";
 import Rank from "../components/Rank";
 import CountUp from 'react-countup';
 export default function Main() {
