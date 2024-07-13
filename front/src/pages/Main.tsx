@@ -14,7 +14,6 @@ export default function Main() {
                         <DoughnutChart />
                     </div>
                     <div>
-
                     </div>
                 </div>
             </section>
